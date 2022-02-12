@@ -1,0 +1,24 @@
+.titles{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.custom-container{
+    text-align: center;
+}
+
+.option-box1{
+    border: 3px solid orange;
+    margin-left: 5px;
+}
+
+.option-box2{
+    border: 3px solid orange;
+    margin-right: 5px;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
