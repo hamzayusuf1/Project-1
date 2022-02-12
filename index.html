@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<!--Navigation bar -->
+  <nav class="bg-sky-300 has-background-info m-0">
+       <div>
+        <div class="flex w-full w-auto text-right text-bold border-none">        
+            <a href="#" class="block md:inline-block text-orange-400 hover:text-orange-200 px-3 py-3 text-1xl lg:text-2xl">Foodie</a>
+            <a href="#" class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 text-1xl lg:text-2xl">Healthy Food spots's</a>
+          </div>
+       </div>
+   </nav>
+  
+  <!-- Title Section -->
+
+    <section class="has-background-info is-medium px-10 mb-5">
+      <div class="columns is-vcentered">
+        <div class="titles column is-6">
+          <h1 class="is-size-1">Eat today</h1>
+          <h5 class="is-size-3">Live another day</h5>
+        </div>
+        <div class="column">
+          <img class="image" src="./Image/Food.png" alt="food logo">
+        </div>
+      </div>
+    </section>
+          
+
+    
+    
+      <!-- Input section -->
+  
+    <section class="center-content">
+     <div class="form-sumbit option-boxs">
+       <div class="columns">
+
+         <div class="option-box1 column is-6 p-2">
+           <h2> Discover more than 100 fantastic recipes on Foodie</h2>
+           <p>Search by food name</p>
+           <form action="" id="recipe-form">
+             <input id="search-input" class="input" type="text"  placeholder="Search for Favourite Recipe" id="search-field">
+             <a class="button is-primary" id="search-button">Search</a>
+            </form>
+          </div >
+          
+          <div class="option-box2 column is-6 p-5"> 
+            <h2> Feeling Spontaneous? </h2>
+            <p>Click the button to get a random food suggestion</p>
+            <form id="random-selector">
+              <input id="input" type="text">
+              <a class="button is-primary" id="search-button-random">Search</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search results -->
+    <section >
+      <div class="container m-5 has-background-primary">
+        <div class="custom-container is-family-sans-serif" id="search-result">
+          <div class="is-size-2-desktop " id="name"></div>
+          <div class="is-size-4" id="foodtype"></div>
+          <div id="picture"></div>
+          <div id="ingridients"></div>
+          <div class="is-size-5" id="instructions"></div>
+        </div>
+      </div>
+    </section>
+    
+
+  
+
+
+
+          
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="./assets/script.js"></script>
+</body>
+</html>
